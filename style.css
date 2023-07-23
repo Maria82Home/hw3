@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+}
+
+.body {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.HOMEPAGE {
+    width: 1920px;
+    height: 700px;
+    /* flex-shrink: 0; */
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+}
+
+.Menu_bar {
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 375px;
+    padding-bottom: 84px;
+    padding-left: 375px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 533px;
+    height: 17px;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+}
+
+.Home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+}
+
+.pictureinmenu {
+    width: 8px;
+    height: 6px;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logopicture {
+    width: 137px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1170px;
+    height: 374px;
+    padding-left: 373px;
+}
+
+.Home_Meta {
+    width: 522px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 17px;
+}
+
+.subtitle {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 37px;
+}
+
+.Button_Meta {
+    display: flex;
+    flex-direction: row;
+    width: 302px;
+    height: 50px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Button {
+    display: flex;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.textbutton {
+    width: 69px;
+    height: 19px;
+    background-color: #F25822;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.video {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Image {
+    width: 610.735px;
+    height: 372.904px;
+    flex-shrink: 0;
+}
+
+.Picture {
+    width: 544.814px;
+    height: 374.843px;
+    padding-top: -1.3px;
+    padding-bottom: -0.6px;
+    padding-left: 1.94px;
+    padding-right: 63.98px;
+}
+
+.BRAND {
+    width: 1920px;
+    height: 243px;
+}
+
+.brands {
+    padding-top: 97px;
+    padding-right: 375px;
+    padding-bottom: 96px;
+    padding-left: 345px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/Gilroy/Gilroy-Medium.eot);
+    src: url(./fonts/Gilroy/Gilroy-Medium.eot?#iefix) format("embedded-opentype"),
+        url(./fonts/Gilroy/Gilroy-Medium.woff) format("woff"),
+        url(./fonts/Gilroy/Gilroy-Medium.woff2) format("woff2"),
+        url(./fonts/Gilroy/Gilroy-Medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/Gilroy/Gilroy-Semibold.eot);
+    src: url(./fonts/Gilroy/Gilroy-Semibold.eot?#iefix) format("embedded-opentype"),
+        url(./fonts/Gilroy/Gilroy-Semibold.woff) format("woff"),
+        url(./fonts/Gilroy/Gilroy-Semibold.woff2) format("woff2"),
+        url(./fonts/Gilroy/Gilroy-Semibold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/Gilroy/Gilroy-Bold.eot);
+    src: url(./fonts/Gilroy/Gilroy-Bold.eot?#iefix) format("embedded-opentype"),
+        url(./fonts/Gilroy/Gilroy-Bold.woff) format("woff"),
+        url(./fonts/Gilroy/Gilroy-Bold.woff2) format("woff2"),
+        url(./fonts/Gilroy/Gilroy-Bold.ttf) format("truetype")
+}
